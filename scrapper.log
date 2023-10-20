@@ -5386,3 +5386,34 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.6:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 02:56:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 02:56:27] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 02:56:27] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 02:56:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 02:56:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 02:56:35] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 02:56:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:root:HTTP Error 500: Internal Server Error
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 02:56:57] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.6:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 03:25:24] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 03:25:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 03:25:24] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:root:HTTP Error 500: Internal Server Error
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 03:25:42] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 03:26:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 03:26:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 03:26:45] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 03:26:45] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 03:26:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:HTTP Error 500: Internal Server Error
+INFO:werkzeug:172.18.0.2 - - [21/Oct/2023 03:27:05] "POST /review HTTP/1.1" 200 -
